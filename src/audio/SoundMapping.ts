@@ -1,5 +1,5 @@
 import { sec } from "../utils/timing";
-import { s01Cue } from "./AudioTimeline";
+import { cue } from "./AudioTimeline";
 
 /**
  * Sound-effect placements. Every file is cut from the user-supplied packs in
@@ -25,9 +25,9 @@ export const SFX_LIB = {
 
 export const S01_SFX: SfxPlacement[] = [
   { ...SFX_LIB.riser_01, scene: "01", animation: "Black -> emerald reveal, light streak", hitFrame: 6, gain: 0.32 },
-  { ...SFX_LIB.impact_basscrack, scene: "01", animation: "'sotmaydi.' blur-zoom punch", hitFrame: s01Cue("sotmaydi"), gain: 0.22 },
-  { ...SFX_LIB.impact_cine_strike, scene: "01", animation: "'orzularini' lime highlight impact", hitFrame: s01Cue("orzularini"), gain: 0.5 },
-  { ...SFX_LIB.whoosh_03, scene: "01", animation: "Whip-pan exit with motion blur", hitFrame: sec(6.85), gain: 0.42 },
+  { ...SFX_LIB.impact_basscrack, scene: "01", animation: "'sotmaydi.' blur-zoom punch", hitFrame: cue("01", "sotmaydi"), gain: 0.22 },
+  { ...SFX_LIB.impact_cine_strike, scene: "01", animation: "'orzularini' lime highlight impact", hitFrame: cue("01", "orzularini"), gain: 0.5 },
+  { ...SFX_LIB.whoosh_03, scene: "01", animation: "Whip-pan exit with motion blur", hitFrame: sec(6.38), gain: 0.42 },
 ];
 
 export const startFrameFor = (p: SfxPlacement) => Math.max(0, p.hitFrame - sec(p.peak));

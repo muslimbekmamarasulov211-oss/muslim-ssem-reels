@@ -5,15 +5,15 @@ import { noise2D } from "@remotion/noise";
 import { Bloom, FilmFinish, GradientBackground, LightStreak, Particles } from "../components/Atmosphere";
 import { Camera3D, Layer } from "../components/Camera3D";
 import { BlurZoom, HighlightWord, LetterReveal } from "../components/KineticText";
-import { s01Cue, VO_OFFSET_S01 } from "../audio/AudioTimeline";
+import { cue as voCue, VO, VO_LEAD } from "../audio/AudioTimeline";
 import { S01_SFX, startFrameFor } from "../audio/SoundMapping";
 import { colors } from "../theme/colors";
 import { ease, FPS, logLerp, progress, sec } from "../utils/timing";
 import { SAFE, SAFE_CENTER_Y, SAFE_WIDTH } from "../utils/safeZones";
 
-export const SCENE01_DURATION = sec(7); // 420 frames @ 60 FPS
+export const SCENE01_DURATION = sec(6.6); // 396 frames @ 60 FPS
 
-const WHIP_START = sec(6.55);
+const WHIP_START = sec(6.15);
 const WHIP_LEN = sec(0.45);
 
 /** Centered text block inside the Instagram safe area. */
@@ -40,15 +40,16 @@ const Scene01Visual: React.FC = () => {
   const frame = useCurrentFrame();
   const t = frame / FPS;
 
+  const c = (w: string) => voCue("01", w);
   const cue = {
-    eng: s01Cue("eng"),
-    biz: s01Cue("bizneslar"),
-    aslida: s01Cue("aslida"),
-    sotmaydi: s01Cue("sotmaydi"),
-    ular: s01Cue("ular"),
-    insonlarning: s01Cue("insonlarning"),
-    orzularini: s01Cue("orzularini"),
-    sotadi: s01Cue("sotadi"),
+    eng: c("eng"),
+    biz: c("bizneslar"),
+    aslida: c("aslida"),
+    sotmaydi: c("sotmaydi"),
+    ular: c("ular"),
+    insonlarning: c("insonlarning"),
+    orzularini: c("orzularini"),
+    sotadi: c("sotadi"),
   };
 
   // --- atmosphere ------------------------------------------------------
@@ -133,9 +134,8 @@ export const Scene01: React.FC<{ withAudio?: boolean }> = ({ withAudio = true })
 
       {withAudio ? (
         <>
-          {/* TEST ONLY: NeuronAI "Kamronbek" sample, replaced by the approved voice-over. */}
-          <Sequence from={VO_OFFSET_S01}>
-            <Audio src={staticFile("assets/audio/voiceover/samples/sample_kamronbek_s01.mp3")} />
+          <Sequence from={VO_LEAD}>
+            <Audio src={staticFile(VO["01"].file)} />
           </Sequence>
           {S01_SFX.map((s) => (
             <Sequence key={s.file} from={startFrameFor(s)}>

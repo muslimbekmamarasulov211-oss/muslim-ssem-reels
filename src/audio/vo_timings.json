@@ -1,811 +1,807 @@
 {
  "01": {
-  "file": "assets/audio/voiceover/raw/vo_01_kamola.wav",
-  "duration": 5.669,
+  "file": "assets/audio/voiceover/raw/vo_01_kamronbek.wav",
+  "duration": 5.625,
   "speech": [
    [
-    0.426,
-    3.136
+    0.207,
+    3.095
    ],
    [
-    3.614,
-    5.485
+    3.546,
+    5.502
    ]
   ],
   "words": [
    {
     "w": "Eng",
-    "start": 0.426,
-    "end": 0.599
+    "start": 0.207,
+    "end": 0.392
    },
    {
     "w": "muvaffaqiyatli",
-    "start": 0.599,
-    "end": 1.415
+    "start": 0.392,
+    "end": 1.261
    },
    {
     "w": "bizneslar",
-    "start": 1.415,
-    "end": 1.845
+    "start": 1.261,
+    "end": 1.72
    },
    {
     "w": "aslida",
-    "start": 1.845,
-    "end": 2.276
+    "start": 1.72,
+    "end": 2.178
    },
    {
     "w": "mahsulot",
-    "start": 2.276,
-    "end": 2.706
+    "start": 2.178,
+    "end": 2.637
    },
    {
     "w": "sotmaydi",
-    "start": 2.706,
-    "end": 3.136
+    "start": 2.637,
+    "end": 3.095
    },
    {
     "w": "Ular",
-    "start": 3.614,
-    "end": 3.9
+    "start": 3.546,
+    "end": 3.845
    },
    {
     "w": "insonlarning",
-    "start": 3.9,
-    "end": 4.428
+    "start": 3.845,
+    "end": 4.397
    },
    {
     "w": "orzularini",
-    "start": 4.428,
-    "end": 5.078
+    "start": 4.397,
+    "end": 5.077
    },
    {
     "w": "sotadi",
-    "start": 5.078,
-    "end": 5.485
+    "start": 5.077,
+    "end": 5.502
    }
   ]
  },
  "02": {
-  "file": "assets/audio/voiceover/raw/vo_02_kamola.wav",
-  "duration": 9.978,
+  "file": "assets/audio/voiceover/raw/vo_02_kamronbek.wav",
+  "duration": 10.041,
   "speech": [
    [
-    0.207,
-    3.616
+    0.229,
+    3.647
    ],
    [
-    4.08,
-    6.223
+    4.094,
+    6.374
    ],
    [
-    6.691,
-    9.777
+    6.817,
+    9.88
    ]
   ],
   "words": [
    {
     "w": "Kimdir",
-    "start": 0.207,
-    "end": 0.543
+    "start": 0.229,
+    "end": 0.567
    },
    {
     "w": "dunyoning",
-    "start": 0.543,
-    "end": 1.023
+    "start": 0.567,
+    "end": 1.048
    },
    {
     "w": "eng",
-    "start": 1.023,
-    "end": 1.216
+    "start": 1.048,
+    "end": 1.242
    },
    {
     "w": "goʻzal",
-    "start": 1.216,
-    "end": 1.553
+    "start": 1.242,
+    "end": 1.579
    },
    {
     "w": "joylariga",
-    "start": 1.553,
-    "end": 2.176
+    "start": 1.579,
+    "end": 2.204
    },
    {
     "w": "sayohat",
-    "start": 2.176,
-    "end": 2.656
+    "start": 2.204,
+    "end": 2.685
    },
    {
     "w": "qilishni",
-    "start": 2.656,
-    "end": 3.136
+    "start": 2.685,
+    "end": 3.166
    },
    {
     "w": "istaydi",
-    "start": 3.136,
-    "end": 3.616
+    "start": 3.166,
+    "end": 3.647
    },
    {
     "w": "Kimdir",
-    "start": 4.08,
-    "end": 4.37
+    "start": 4.094,
+    "end": 4.402
    },
    {
     "w": "zamonaviy",
-    "start": 4.37,
-    "end": 4.905
+    "start": 4.402,
+    "end": 4.972
    },
    {
     "w": "universitetlarda",
-    "start": 4.905,
-    "end": 5.811
+    "start": 4.972,
+    "end": 5.935
    },
    {
     "w": "oʻqishni",
-    "start": 5.811,
-    "end": 6.223
+    "start": 5.935,
+    "end": 6.374
    },
    {
     "w": "Yana",
-    "start": 6.691,
-    "end": 7.0
+    "start": 6.817,
+    "end": 7.124
    },
    {
     "w": "kimdir",
-    "start": 7.0,
-    "end": 7.31
+    "start": 7.124,
+    "end": 7.431
    },
    {
     "w": "nufuzli",
-    "start": 7.31,
-    "end": 7.751
+    "start": 7.431,
+    "end": 7.869
    },
    {
     "w": "kompaniyalarda",
-    "start": 7.751,
-    "end": 8.586
+    "start": 7.869,
+    "end": 8.698
    },
    {
     "w": "ishlashni",
-    "start": 8.586,
-    "end": 9.027
+    "start": 8.698,
+    "end": 9.136
    },
    {
     "w": "orzu",
-    "start": 9.027,
-    "end": 9.336
+    "start": 9.136,
+    "end": 9.443
    },
    {
     "w": "qiladi",
-    "start": 9.336,
-    "end": 9.777
+    "start": 9.443,
+    "end": 9.88
    }
   ]
  },
  "03": {
-  "file": "assets/audio/voiceover/raw/vo_03_kamola.wav",
-  "duration": 8.025,
+  "file": "assets/audio/voiceover/raw/vo_03_kamronbek.wav",
+  "duration": 8.113,
   "speech": [
    [
-    0.207,
-    3.831
+    0.2,
+    3.874
    ],
    [
-    4.286,
-    7.784
+    4.325,
+    7.909
    ]
   ],
   "words": [
    {
     "w": "Ammo",
-    "start": 0.207,
-    "end": 0.506
+    "start": 0.2,
+    "end": 0.518
    },
    {
     "w": "bu",
-    "start": 0.506,
-    "end": 0.678
+    "start": 0.518,
+    "end": 0.701
    },
    {
     "w": "imkoniyatlar",
-    "start": 0.678,
-    "end": 1.358
+    "start": 0.701,
+    "end": 1.425
    },
    {
     "w": "sari",
-    "start": 1.358,
-    "end": 1.657
+    "start": 1.425,
+    "end": 1.743
    },
    {
     "w": "yoʻl",
-    "start": 1.657,
-    "end": 1.828
+    "start": 1.743,
+    "end": 1.926
    },
    {
     "w": "ochadigan",
-    "start": 1.828,
-    "end": 2.382
+    "start": 1.926,
+    "end": 2.514
    },
    {
     "w": "muhim",
-    "start": 2.382,
-    "end": 2.68
+    "start": 2.514,
+    "end": 2.832
    },
    {
     "w": "vositalardan",
-    "start": 2.68,
-    "end": 3.361
+    "start": 2.832,
+    "end": 3.556
    },
    {
     "w": "biri",
-    "start": 3.361,
-    "end": 3.659
+    "start": 3.556,
+    "end": 3.874
    },
    {
     "w": "til",
-    "start": 3.659,
-    "end": 3.831
+    "start": 4.325,
+    "end": 4.501
    },
    {
     "w": "Ayniqsa",
-    "start": 4.286,
-    "end": 4.734
+    "start": 4.501,
+    "end": 4.937
    },
    {
     "w": "koreys",
-    "start": 4.734,
-    "end": 5.049
+    "start": 4.937,
+    "end": 5.243
    },
    {
     "w": "tilini",
-    "start": 5.049,
-    "end": 5.497
+    "start": 5.243,
+    "end": 5.68
    },
    {
     "w": "bilish",
-    "start": 5.497,
-    "end": 5.811
+    "start": 5.68,
+    "end": 5.986
    },
    {
     "w": "sizga",
-    "start": 5.811,
-    "end": 6.125
+    "start": 5.986,
+    "end": 6.293
    },
    {
     "w": "yangi",
-    "start": 6.125,
-    "end": 6.44
+    "start": 6.293,
+    "end": 6.599
    },
    {
     "w": "eshiklarni",
-    "start": 6.44,
-    "end": 7.022
+    "start": 6.599,
+    "end": 7.166
    },
    {
     "w": "ochishi",
-    "start": 7.022,
-    "end": 7.47
+    "start": 7.166,
+    "end": 7.603
    },
    {
     "w": "mumkin",
-    "start": 7.47,
-    "end": 7.784
+    "start": 7.603,
+    "end": 7.909
    }
   ]
  },
  "04": {
   "file": "assets/audio/voiceover/raw/vo_04_kamronbek.wav",
-  "duration": 7.528,
+  "duration": 6.82,
   "speech": [
    [
     0.208,
-    2.08
+    1.914
    ],
    [
-    2.531,
-    4.408
-   ],
-   [
-    4.679,
-    7.321
+    2.36,
+    6.668
    ]
   ],
   "words": [
    {
     "w": "Men",
     "start": 0.208,
-    "end": 0.406
+    "end": 0.389
    },
    {
     "w": "Muslim",
-    "start": 0.406,
-    "end": 0.751
+    "start": 0.389,
+    "end": 0.703
    },
    {
     "w": "koreys",
-    "start": 0.751,
-    "end": 1.096
+    "start": 0.703,
+    "end": 1.018
    },
    {
     "w": "tili",
-    "start": 1.096,
-    "end": 1.441
+    "start": 1.018,
+    "end": 1.332
    },
    {
     "w": "ustoziman",
-    "start": 1.441,
-    "end": 2.08
+    "start": 1.332,
+    "end": 1.914
    },
    {
     "w": "Sizni",
-    "start": 2.531,
-    "end": 2.941
+    "start": 2.36,
+    "end": 2.738
    },
    {
     "w": "bu",
-    "start": 2.941,
-    "end": 3.177
+    "start": 2.738,
+    "end": 2.955
    },
    {
     "w": "yoʻlda",
-    "start": 3.177,
-    "end": 3.587
+    "start": 2.955,
+    "end": 3.333
    },
    {
     "w": "noldan",
-    "start": 3.587,
-    "end": 3.997
+    "start": 3.333,
+    "end": 3.71
    },
    {
     "w": "boshlab",
-    "start": 3.997,
-    "end": 4.408
+    "start": 3.71,
+    "end": 4.088
    },
    {
     "w": "bosqichma-bosqich",
-    "start": 4.679,
-    "end": 5.559
+    "start": 4.088,
+    "end": 4.948
    },
    {
     "w": "rivojlanishga",
-    "start": 5.559,
-    "end": 6.44
+    "start": 4.948,
+    "end": 5.808
    },
    {
     "w": "yoʻnaltiraman",
-    "start": 6.44,
-    "end": 7.32
+    "start": 5.808,
+    "end": 6.668
    }
   ]
  },
  "05": {
-  "file": "assets/audio/voiceover/raw/vo_05_kamola.wav",
-  "duration": 9.295,
+  "file": "assets/audio/voiceover/raw/vo_05_kamronbek.wav",
+  "duration": 9.382,
   "speech": [
    [
-    0.203,
-    3.134
+    0.208,
+    3.2
    ],
    [
-    3.62,
-    8.989
+    3.704,
+    9.226
    ]
   ],
   "words": [
    {
     "w": "Kursimiz",
-    "start": 0.203,
-    "end": 0.661
+    "start": 0.209,
+    "end": 0.676
    },
    {
     "w": "video",
-    "start": 0.661,
-    "end": 1.119
+    "start": 0.676,
+    "end": 1.143
    },
    {
     "w": "darslar",
-    "start": 1.119,
-    "end": 1.44
+    "start": 1.143,
+    "end": 1.471
    },
    {
     "w": "va",
-    "start": 1.44,
-    "end": 1.624
+    "start": 1.471,
+    "end": 1.659
    },
    {
     "w": "jonli",
-    "start": 1.624,
-    "end": 1.945
+    "start": 1.659,
+    "end": 1.987
    },
    {
     "w": "mashgʻulotlardan",
-    "start": 1.945,
-    "end": 2.676
+    "start": 1.987,
+    "end": 2.733
    },
    {
     "w": "iborat",
-    "start": 2.676,
-    "end": 3.134
+    "start": 2.733,
+    "end": 3.2
    },
    {
     "w": "Siz",
-    "start": 3.62,
-    "end": 3.824
+    "start": 3.704,
+    "end": 3.914
    },
    {
     "w": "istalgan",
-    "start": 3.824,
-    "end": 4.331
+    "start": 3.914,
+    "end": 4.435
    },
    {
     "w": "vaqtda",
-    "start": 4.331,
-    "end": 4.686
+    "start": 4.435,
+    "end": 4.801
    },
    {
     "w": "video",
-    "start": 4.686,
-    "end": 5.193
+    "start": 4.801,
+    "end": 5.322
    },
    {
     "w": "darslarni",
-    "start": 5.193,
-    "end": 5.699
+    "start": 5.322,
+    "end": 5.843
    },
    {
     "w": "koʻrib",
-    "start": 5.699,
-    "end": 6.055
+    "start": 5.843,
+    "end": 6.208
    },
    {
     "w": "jonli",
-    "start": 6.055,
-    "end": 6.41
+    "start": 6.208,
+    "end": 6.574
    },
    {
     "w": "mashgʻulotlarda",
-    "start": 6.41,
-    "end": 7.219
+    "start": 6.574,
+    "end": 7.406
    },
    {
     "w": "bilimlaringizni",
-    "start": 7.219,
-    "end": 8.18
+    "start": 7.406,
+    "end": 8.394
    },
    {
     "w": "mustahkamlaysiz",
-    "start": 8.18,
-    "end": 8.989
+    "start": 8.394,
+    "end": 9.226
    }
   ]
  },
  "06": {
-  "file": "assets/audio/voiceover/raw/vo_06_kamola.wav",
-  "duration": 9.795,
+  "file": "assets/audio/voiceover/raw/vo_06_kamronbek.wav",
+  "duration": 9.99,
   "speech": [
    [
-    0.274,
-    1.907
+    0.2,
+    1.883
    ],
    [
-    2.373,
-    5.504
+    2.327,
+    5.768
    ],
    [
-    6.093,
-    9.495
+    6.217,
+    9.838
    ]
   ],
   "words": [
    {
     "w": "Savollaringiz",
-    "start": 0.274,
-    "end": 0.999
+    "start": 0.2,
+    "end": 0.947
    },
    {
     "w": "javobsiz",
-    "start": 0.999,
-    "end": 1.453
+    "start": 0.947,
+    "end": 1.415
    },
    {
     "w": "qolmaydi",
-    "start": 1.453,
-    "end": 1.907
+    "start": 1.415,
+    "end": 1.883
    },
    {
     "w": "Uy",
-    "start": 2.373,
-    "end": 2.542
+    "start": 2.327,
+    "end": 2.512
    },
    {
     "w": "vazifalaringiz",
-    "start": 2.542,
-    "end": 3.334
+    "start": 2.512,
+    "end": 3.383
    },
    {
     "w": "tekshiriladi",
-    "start": 3.334,
-    "end": 4.001
+    "start": 3.383,
+    "end": 4.116
    },
    {
     "w": "xatolaringiz",
-    "start": 4.001,
-    "end": 4.668
+    "start": 4.116,
+    "end": 4.85
    },
    {
     "w": "ustida",
-    "start": 4.668,
-    "end": 5.086
+    "start": 4.85,
+    "end": 5.309
    },
    {
     "w": "ishlaymiz",
-    "start": 5.086,
-    "end": 5.504
+    "start": 5.309,
+    "end": 5.768
    },
    {
     "w": "Har",
-    "start": 6.093,
-    "end": 6.265
+    "start": 6.217,
+    "end": 6.4
    },
    {
     "w": "bir",
-    "start": 6.265,
-    "end": 6.436
+    "start": 6.4,
+    "end": 6.582
    },
    {
     "w": "oʻquvchining",
-    "start": 6.436,
-    "end": 6.988
+    "start": 6.582,
+    "end": 7.17
    },
    {
     "w": "rivojlanishi",
-    "start": 6.988,
-    "end": 7.668
+    "start": 7.17,
+    "end": 7.893
    },
    {
     "w": "va",
-    "start": 7.668,
-    "end": 7.839
+    "start": 7.893,
+    "end": 8.075
    },
    {
     "w": "natijalarini",
-    "start": 7.839,
-    "end": 8.645
+    "start": 8.075,
+    "end": 8.933
    },
    {
     "w": "kuzatib",
-    "start": 8.645,
-    "end": 9.07
+    "start": 8.933,
+    "end": 9.385
    },
    {
     "w": "boramiz",
-    "start": 9.07,
-    "end": 9.495
+    "start": 9.385,
+    "end": 9.838
    }
   ]
  },
  "07": {
-  "file": "assets/audio/voiceover/raw/vo_07_kamola.wav",
-  "duration": 7.67,
+  "file": "assets/audio/voiceover/raw/vo_07_kamronbek.wav",
+  "duration": 7.727,
   "speech": [
    [
-    0.18,
-    3.229
+    0.203,
+    3.484
    ],
    [
-    3.799,
-    7.463
+    3.93,
+    7.573
    ]
   ],
   "words": [
    {
     "w": "Esingizda",
-    "start": 0.18,
-    "end": 0.779
+    "start": 0.203,
+    "end": 0.847
    },
    {
     "w": "boʻlsin",
-    "start": 0.779,
-    "end": 1.102
+    "start": 0.847,
+    "end": 1.196
    },
    {
     "w": "yangi",
-    "start": 1.102,
-    "end": 1.426
+    "start": 1.196,
+    "end": 1.544
    },
    {
     "w": "til",
-    "start": 1.426,
-    "end": 1.612
+    "start": 1.544,
+    "end": 1.744
    },
    {
     "w": "bu",
-    "start": 1.612,
-    "end": 1.797
+    "start": 1.744,
+    "end": 1.944
    },
    {
     "w": "shunchaki",
-    "start": 1.797,
-    "end": 2.258
+    "start": 1.944,
+    "end": 2.44
    },
    {
     "w": "yangi",
-    "start": 2.258,
-    "end": 2.582
+    "start": 2.44,
+    "end": 2.788
    },
    {
     "w": "soʻzlar",
-    "start": 2.582,
-    "end": 2.905
+    "start": 2.788,
+    "end": 3.136
    },
    {
     "w": "emas",
-    "start": 2.905,
-    "end": 3.229
+    "start": 3.136,
+    "end": 3.484
    },
    {
     "w": "Bu",
-    "start": 3.799,
-    "end": 3.988
+    "start": 3.93,
+    "end": 4.118
    },
    {
     "w": "yangi",
-    "start": 3.988,
-    "end": 4.317
+    "start": 4.118,
+    "end": 4.445
    },
    {
     "w": "tanishuvlar",
-    "start": 4.317,
-    "end": 4.927
+    "start": 4.445,
+    "end": 5.051
    },
    {
     "w": "yangi",
-    "start": 4.927,
-    "end": 5.256
+    "start": 5.051,
+    "end": 5.379
    },
    {
     "w": "bilimlar",
-    "start": 5.256,
-    "end": 5.725
+    "start": 5.379,
+    "end": 5.845
    },
    {
     "w": "va",
-    "start": 5.725,
-    "end": 5.914
+    "start": 5.845,
+    "end": 6.033
    },
    {
     "w": "yangi",
-    "start": 5.914,
-    "end": 6.244
+    "start": 6.033,
+    "end": 6.361
    },
    {
     "w": "imkoniyatlar",
-    "start": 6.244,
-    "end": 6.993
+    "start": 6.361,
+    "end": 7.106
    },
    {
     "w": "demakdir",
-    "start": 6.993,
-    "end": 7.463
+    "start": 7.106,
+    "end": 7.573
    }
   ]
  },
  "08": {
-  "file": "assets/audio/voiceover/raw/vo_08_kamola.wav",
-  "duration": 10.216,
+  "file": "assets/audio/voiceover/raw/vo_08_kamronbek.wav",
+  "duration": 10.379,
   "speech": [
    [
-    0.264,
-    6.307
+    0.202,
+    6.419
    ],
    [
-    6.76,
-    9.972
+    6.862,
+    10.241
    ]
   ],
   "words": [
    {
     "w": "Siz",
-    "start": 0.264,
-    "end": 0.454
+    "start": 0.202,
+    "end": 0.398
    },
    {
     "w": "ham",
-    "start": 0.454,
-    "end": 0.644
+    "start": 0.398,
+    "end": 0.594
    },
    {
     "w": "koreys",
-    "start": 0.644,
-    "end": 0.975
+    "start": 0.594,
+    "end": 0.934
    },
    {
     "w": "tilini",
-    "start": 0.975,
-    "end": 1.447
+    "start": 0.934,
+    "end": 1.42
    },
    {
     "w": "oʻrganishni",
-    "start": 1.447,
-    "end": 2.06
+    "start": 1.42,
+    "end": 2.05
    },
    {
     "w": "istasangiz",
-    "start": 2.06,
-    "end": 2.673
+    "start": 2.05,
+    "end": 2.68
    },
    {
     "w": "kursimizga",
-    "start": 2.673,
-    "end": 3.285
+    "start": 2.68,
+    "end": 3.311
    },
    {
     "w": "yozilish",
-    "start": 3.285,
-    "end": 3.757
+    "start": 3.311,
+    "end": 3.796
    },
    {
     "w": "uchun",
-    "start": 3.757,
-    "end": 4.088
+    "start": 3.796,
+    "end": 4.137
    },
    {
     "w": "Instagram",
-    "start": 4.088,
-    "end": 4.56
+    "start": 4.137,
+    "end": 4.622
    },
    {
     "w": "Direct",
-    "start": 4.56,
-    "end": 4.891
+    "start": 4.622,
+    "end": 4.962
    },
    {
     "w": "orqali",
-    "start": 4.891,
-    "end": 5.363
+    "start": 4.962,
+    "end": 5.448
    },
    {
     "w": "murojaat",
-    "start": 5.363,
-    "end": 5.976
+    "start": 5.448,
+    "end": 6.078
    },
    {
     "w": "qiling",
-    "start": 5.976,
-    "end": 6.307
+    "start": 6.078,
+    "end": 6.419
    },
    {
     "w": "Yangi",
-    "start": 6.76,
-    "end": 7.082
+    "start": 6.862,
+    "end": 7.2
    },
    {
     "w": "imkoniyatlar",
-    "start": 7.082,
-    "end": 7.815
+    "start": 7.2,
+    "end": 7.971
    },
    {
     "w": "sari",
-    "start": 7.815,
-    "end": 8.137
+    "start": 7.971,
+    "end": 8.31
    },
    {
     "w": "birinchi",
-    "start": 8.137,
-    "end": 8.596
+    "start": 8.31,
+    "end": 8.793
    },
    {
     "w": "qadamingizni",
-    "start": 8.596,
-    "end": 9.328
+    "start": 8.793,
+    "end": 9.563
    },
    {
     "w": "bugun",
-    "start": 9.328,
-    "end": 9.65
+    "start": 9.563,
+    "end": 9.902
    },
    {
     "w": "boshlang",
-    "start": 9.65,
-    "end": 9.972
+    "start": 9.902,
+    "end": 10.241
    }
   ]
  }

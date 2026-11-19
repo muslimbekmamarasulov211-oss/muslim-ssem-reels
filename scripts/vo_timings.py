@@ -13,14 +13,14 @@ import json, re, subprocess, sys
 
 VO = "public/assets/audio/voiceover/raw"
 SCRIPT = {
-    "01": ("vo_01_kamola.wav", "Eng muvaffaqiyatli bizneslar aslida mahsulot sotmaydi. Ular insonlarning orzularini sotadi."),
-    "02": ("vo_02_kamola.wav", "Kimdir dunyoning eng goʻzal joylariga sayohat qilishni istaydi. Kimdir zamonaviy universitetlarda oʻqishni. Yana kimdir nufuzli kompaniyalarda ishlashni orzu qiladi."),
-    "03": ("vo_03_kamola.wav", "Ammo bu imkoniyatlar sari yoʻl ochadigan muhim vositalardan biri — til. Ayniqsa, koreys tilini bilish sizga yangi eshiklarni ochishi mumkin."),
+    "01": ("vo_01_kamronbek.wav", "Eng muvaffaqiyatli bizneslar aslida mahsulot sotmaydi. Ular insonlarning orzularini sotadi."),
+    "02": ("vo_02_kamronbek.wav", "Kimdir dunyoning eng goʻzal joylariga sayohat qilishni istaydi. Kimdir zamonaviy universitetlarda oʻqishni. Yana kimdir nufuzli kompaniyalarda ishlashni orzu qiladi."),
+    "03": ("vo_03_kamronbek.wav", "Ammo bu imkoniyatlar sari yoʻl ochadigan muhim vositalardan biri — til. Ayniqsa, koreys tilini bilish sizga yangi eshiklarni ochishi mumkin."),
     "04": ("vo_04_kamronbek.wav", "Men Muslim, koreys tili ustoziman. Sizni bu yoʻlda noldan boshlab, bosqichma-bosqich rivojlanishga yoʻnaltiraman."),
-    "05": ("vo_05_kamola.wav", "Kursimiz video darslar va jonli mashgʻulotlardan iborat. Siz istalgan vaqtda video darslarni koʻrib, jonli mashgʻulotlarda bilimlaringizni mustahkamlaysiz."),
-    "06": ("vo_06_kamola.wav", "Savollaringiz javobsiz qolmaydi. Uy vazifalaringiz tekshiriladi, xatolaringiz ustida ishlaymiz. Har bir oʻquvchining rivojlanishi va natijalarini kuzatib boramiz."),
-    "07": ("vo_07_kamola.wav", "Esingizda boʻlsin, yangi til — bu shunchaki yangi soʻzlar emas. Bu yangi tanishuvlar, yangi bilimlar va yangi imkoniyatlar demakdir."),
-    "08": ("vo_08_kamola.wav", "Siz ham koreys tilini oʻrganishni istasangiz, kursimizga yozilish uchun Instagram Direct orqali murojaat qiling. Yangi imkoniyatlar sari birinchi qadamingizni bugun boshlang!"),
+    "05": ("vo_05_kamronbek.wav", "Kursimiz video darslar va jonli mashgʻulotlardan iborat. Siz istalgan vaqtda video darslarni koʻrib, jonli mashgʻulotlarda bilimlaringizni mustahkamlaysiz."),
+    "06": ("vo_06_kamronbek.wav", "Savollaringiz javobsiz qolmaydi. Uy vazifalaringiz tekshiriladi, xatolaringiz ustida ishlaymiz. Har bir oʻquvchining rivojlanishi va natijalarini kuzatib boramiz."),
+    "07": ("vo_07_kamronbek.wav", "Esingizda boʻlsin, yangi til — bu shunchaki yangi soʻzlar emas. Bu yangi tanishuvlar, yangi bilimlar va yangi imkoniyatlar demakdir."),
+    "08": ("vo_08_kamronbek.wav", "Siz ham koreys tilini oʻrganishni istasangiz, kursimizga yozilish uchun Instagram Direct orqali murojaat qiling. Yangi imkoniyatlar sari birinchi qadamingizni bugun boshlang!"),
 }
 
 def chunks(path):
@@ -40,7 +40,14 @@ def chunks(path):
         out.append([cur, dur])
     # Very short chunks are breaths, clicks or a clipped short word: merge them
     # into the neighbouring chunk instead of treating them as phrases.
-    merged = [list(c) for c in out]
+    # Pauses shorter than 0.28 s are breaths inside a phrase, not phrase breaks.
+    joined = []
+    for c in out:
+        if joined and c[0] - joined[-1][1] < 0.28:
+            joined[-1][1] = c[1]
+        else:
+            joined.append(list(c))
+    merged = joined
     while True:
         short = [i for i, c in enumerate(merged) if c[1] - c[0] < 0.3]
         if not short or len(merged) == 1:

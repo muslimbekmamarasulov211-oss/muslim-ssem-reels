@@ -2,7 +2,7 @@
 
 Ustoz: **Muslimbek Mamarasulov** · Brend: **@muslim.ssem** (M.ACADEMY ishlatilmaydi)
 
-Format: 1080×1920, 9:16, 30 FPS, H.264 / yuv420p, AAC 48 kHz.
+Format: 1080×1920, 9:16, **60 FPS (native — barcha kompozitsiyalar va animatsiyalar 60 FPS timeline'da)**, 65–70 s (~3900–4200 kadr), H.264 High Profile / yuv420p, AAC 48 kHz. Yakuniy MP4 FPS'i ffprobe bilan tekshiriladi.
 
 ## Rasmlar — `public/assets/images/`
 

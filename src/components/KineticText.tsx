@@ -31,6 +31,7 @@ const baseStyle = (s: TextStyle): React.CSSProperties => ({
   lineHeight: s.lineHeight ?? 1.05,
   color: s.color ?? colors.white,
   whiteSpace: "nowrap",
+  textShadow: (s.color ?? colors.white) === colors.white ? "0 6px 28px rgba(0,0,0,0.45)" : undefined,
 });
 
 /**

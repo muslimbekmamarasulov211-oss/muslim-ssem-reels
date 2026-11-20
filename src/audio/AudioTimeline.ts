@@ -23,7 +23,7 @@ export const wordAt = (scene: SceneId, word: string, nth = 1): number => {
 };
 
 /** Voice-over starts this long after its scene begins. */
-export const VO_LEAD = sec(0.4);
+export const VO_LEAD = sec(0.2);
 
 /** Absolute scene-relative frame (60 FPS) where a word is spoken. */
 export const cue = (scene: SceneId, word: string, nth = 1) => VO_LEAD + sec(wordAt(scene, word, nth));

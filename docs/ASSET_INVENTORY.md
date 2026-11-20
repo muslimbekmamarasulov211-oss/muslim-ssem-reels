@@ -58,12 +58,13 @@ SFX to'plamlari tarkibi (asosiylari):
 - Uy vazifasi misoli: 한국어을 → **한국어를**
 - Instagram follow rasmi chiqarib tashlandi
 
-## Ochiq savollar
+## Hal qilingan qarorlar (ishlab chiqarish)
 
-- [ ] Davomiylik: (A) tezroq voiceover ~70 s / (B) ~75 s gacha / (C) matnni qisqartirish
-- [ ] Subtitr: faqat kinetik kalit so'zlar yoki to'liq subtitr ham
-- [ ] Hangul so'zlari: 여행, 대학교, 직장, 한국어, 새로운 기회
-- [ ] Tutuq belgisi: ʻ (standart) yoki ‘
-- [ ] Plakatlardagi da'volar: "qabul boshlandi", "TOPIK 1–2 tayyorgarlik"
-- [ ] Rasmlarning yuqori sifatli asl fayllari
-- [ ] Musiqa manbasi
+- Voiceover: NeuronAI **Kamronbek**, tezlik 1.12, barcha 8 sahna (`audio/voiceover/raw/`); Kamola yozuvlari `alternates/` da
+- Davomiylik: **69,7 s** (4181 kadr @ 60 FPS)
+- Musiqa: ElevenLabs Music v2.5, instrumental, **B varianti** (`background_music/`); A va C `alternates/` da
+- Ikki versiya: **V1** = ovoz + SFX, **V2** = ovoz + SFX + musiqa
+- Subtitr: faqat kinetik kalit so'zlar
+- Hangul: 여행, 대학교, 직장, 한국어, 새로운 기회
+- `s07b_learn_with_us.png` va `s08a_cta_direct.png` ishlatilmadi (tasdiqlanmagan da'vo / ortiqcha matn)
+- Audio xarita: `docs/AUDIO_MAP.md` (koddan generatsiya qilinadi: `scripts/audio_map.ts`)
